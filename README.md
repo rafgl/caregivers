@@ -1,5 +1,5 @@
 <h1 align="center">
-CareGivers App
+Caregivers
 </h1>
 
 ## ⚡ Tools
