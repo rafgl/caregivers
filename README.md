@@ -1,26 +1,6 @@
 <h1 align="center">
-<a href="https://github.com/rafgl/react-proffy"><img src="https://i.ibb.co/qmjGsh1/Group-12.png" alt="Proffy"/></a>
-
+CareGivers App
 </h1>
-
-## 📢 About
-
-**Proffy** is a fullstack project built during the **2nd** edition of **Next Level Week** promoted by Rocketseat.
-
-The objective of this project is to put into practice the best technologies available in the web development market to build an application compatible with desktop and mobile devices.
-
-With **Proffy** the user must be able to choose between teaching and learning. See some possibilities:
-
-* **Learn**
-   * Available Proffys
-   * Contact a Proffy
-   * Favorite  a Proffy
-   * Filter by: course, day of the week and time
-* **Teach**
-   * Create a profile
-   * Create a class
-
-
 
 ## ⚡ Tools
 
@@ -46,18 +26,13 @@ With **Proffy** the user must be able to choose between teaching and learning. S
 
 * Express
 
-
-  
-
-  
-
 ## ⬇️ Clone this project
 
 > **REQUIRED**: You will need **Yarn**(or NPM) and **NodeJS**
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rafgl/react-proffy.git
+$ git clone https://github.com/rafgl/caregivers.git
 ```
 
 ### Run the Web page
@@ -89,5 +64,3 @@ $ yarn knex:migrate
 # Run the local server
 $ yarn start
 ```
-
-# react-proffy
