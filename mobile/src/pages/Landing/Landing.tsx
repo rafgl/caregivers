@@ -18,7 +18,6 @@ import cuidadorIcon from "../../assets/images/icons/cuidador.png";
 import elderlyIcon from "../../assets/images/icons/elderly.png";
 import heartIcon from "../../assets/images/icons/heart.png";
 import api from "../../services/api";
-import { SizeProp } from "@fortawesome/fontawesome-svg-core";
 
 export default function Landing() {
   const { navigate } = useNavigation();
