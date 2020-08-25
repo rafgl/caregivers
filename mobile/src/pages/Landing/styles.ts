@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     width: "48%",
     backgroundColor: "#333",
     borderRadius: 8,
-    padding: 24,
+    padding: 20,
     justifyContent: "space-around",
   },
 
@@ -61,7 +61,14 @@ const styles = StyleSheet.create({
   buttonText: {
     fontFamily: "Archivo_700Bold",
     color: "#fff",
-    fontSize: 20,
+    fontSize: 23,
+  },
+  iconName: {
+    fontSize: 50,
+    color: '#836FFF',
+  },
+  elderlyIcon: {
+    color: '#FFF',
   },
 });
 

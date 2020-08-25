@@ -2,13 +2,23 @@ import React, { useState, useEffect } from "react";
 import { View, Image, Text, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { RectButton } from "react-native-gesture-handler";
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faDove } from '@fortawesome/free-solid-svg-icons';
+import ReactDOM from 'react-dom';
+import elderly from '@material-ui/core/';
+
+Icon.loadFont();
+
 
 import styles from "./styles";
 import landingImg from "../../assets/images/landing.png";
 import studyIcon from "../../assets/images/icons/study.png";
-import giveClassesIcon from "../../assets/images/icons/give-classes.png";
+import cuidadorIcon from "../../assets/images/icons/cuidador.png";
+import elderlyIcon from "../../assets/images/icons/elderly.png";
 import heartIcon from "../../assets/images/icons/heart.png";
 import api from "../../services/api";
+import { SizeProp } from "@fortawesome/fontawesome-svg-core";
 
 export default function Landing() {
   const { navigate } = useNavigation();
@@ -32,12 +42,14 @@ export default function Landing() {
   }
 
   return (
+
+    
     <View style={styles.container}>
       <Text style={styles.titleOne}>
         Caregivers
+        <Icon name="add" style={styles.iconName}/> 
       </Text>
       <Image source={landingImg} style={styles.banner} />
-
       <Text style={styles.title}>
         Bem-vindo, {"\n"}
         <Text style={styles.titleBold}>O que você gostaria de fazer</Text>
@@ -48,16 +60,16 @@ export default function Landing() {
           onPress={handleNavigateToLearnPages}
           style={[styles.button, styles.buttonPrimary]}
         >
-          <Image source={studyIcon} />
-          <Text style={styles.buttonText}>Buscar</Text>
+          <Image source={elderlyIcon} style={elderlyIcon}/>
+          <Text style={styles.buttonText}>Procurar</Text>
         </RectButton>
 
         <RectButton
           onPress={handleNavigateToGiveClassesPage}
           style={[styles.button, styles.buttonSecondary]}
         >
-          <Image source={giveClassesIcon} />
-          <Text style={styles.buttonText}>Dar aulas</Text>
+          <Image source={cuidadorIcon} />
+          <Text style={styles.buttonText}>Cuidar</Text>
         </RectButton>
       </View>
     </View>
