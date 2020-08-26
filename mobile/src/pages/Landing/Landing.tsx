@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { View, Image, Text, TouchableOpacity } from "react-native";
+import { View, Image, Text, TouchableOpacity, ImageBackground } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { RectButton } from "react-native-gesture-handler";
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -16,7 +16,7 @@ import landingImg from "../../assets/images/landing.png";
 import studyIcon from "../../assets/images/icons/study.png";
 import cuidadorIcon from "../../assets/images/icons/cuidador.png";
 import elderlyIcon from "../../assets/images/icons/elderly.png";
-import heartIcon from "../../assets/images/icons/heart.png";
+import giveClassesBg from "../../assets/images/give-classes-background.png";
 import api from "../../services/api";
 
 export default function Landing() {
@@ -44,6 +44,7 @@ export default function Landing() {
 
     
     <View style={styles.container}>
+      <ImageBackground source={giveClassesBg} style={styles.content} resizeMode="contain">
       <Text style={styles.titleOne}>
         Caregivers
         <Icon name="add" style={styles.iconName}/> 
@@ -71,6 +72,8 @@ export default function Landing() {
           <Text style={styles.buttonText}>Cuidar</Text>
         </RectButton>
       </View>
+      </ImageBackground>
+      
     </View>
   );
 }
