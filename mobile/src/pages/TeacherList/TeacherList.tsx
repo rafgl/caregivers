@@ -42,7 +42,7 @@ export default function TeacherList() {
   return (
     <View style={styles.container}>
       <PageHeader 
-      title="Proffys disponíveis" 
+      title="Procurar cuidador" 
       headerRight={(
         <BorderlessButton onPress={handleToggleFiltersVisible}>
           <Feather name="filter" size={20} color="#FFF"/>

@@ -8,7 +8,7 @@ import TeacherItem from "../../components/TeacherItem";
 export default function Favorites() {
   return (
     <View style={styles.container}>
-      <PageHeader title={"Meus referidos Proffys"} />
+      <PageHeader title={"Cuidadores favoritos"} />
 
       <ScrollView
         style={styles.teacherList}

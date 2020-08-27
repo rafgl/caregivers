@@ -3,46 +3,114 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#8257e5",
-    justifyContent: "center",
-    padding: 40,
+    backgroundColor: "#f0f0f7",
   },
 
-  content: {
-    flex: 1,
-    justifyContent: "center",
+  teacherList: {
+    marginTop: -40,
+    padding: 16,
   },
 
   title: {
-    fontFamily: "Archivo_700Bold",
-    color: "#fff",
-    fontSize: 32,
-    lineHeight: 37,
-    maxWidth: 180,
+    marginTop: 40,
+    padding: 16,
+    fontFamily: "Poppins_600SemiBold",
+    color: "#87CEFA",
+    fontSize: 20,
   },
 
-  description: {
+profile: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 24,
+},
+
+avatar: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    backgroundColor: '#eee'
+},
+
+profileInfo: {
+    marginLeft: 16,
+},
+
+name: {
+    fontFamily: 'Archivo_700Bold',
+    color: '#32264d',
+    fontSize: 20,
+},
+
+subject: {
+    fontFamily: 'Poppins_400Regular',
+    color: '#6a6180',
+    fontSize: 12,
+    marginTop: 4,
+},
+
+bio: {
+    marginHorizontal: 24,
+    fontFamily: 'Poppins_400Regular',
+    fontSize: 14,
+    lineHeight: 24,
+    color: '#6a6180',
+},
+
+footer: {
+    backgroundColor: '#fafafc',
+    padding: 24,
+    alignItems: 'center',
     marginTop: 24,
-    color: "#d4c2ff",
-    fontSize: 16,
-    lineHeight: 26,
-    fontFamily: "Poppins_400Regular",
-    maxWidth: 240,
-  },
+},
 
-  okButton: {
-    marginVertical: 40,
-    backgroundColor: "#04d361",
-    height: 58,
-    alignItems: "center",
-    justifyContent: "center",
+price:{
+    fontFamily: 'Poppins_400Regular',
+    color: '#6a6180',
+    fontSize: 16,
+},
+
+priceValue: {
+    fontFamily: 'Archivo_700Bold',
+    color: '#8257e5',
+    fontSize: 16,
+},
+
+buttonsContainer: {
+    flexDirection: 'row',
+    marginTop: 16,
+},
+
+favoriteButton: {
+    backgroundColor: '#8257e5',
+    width: 56,
+    height: 56,
     borderRadius: 8,
-  },
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 8,
+},
 
-  okButtonText: {
-    color: "#fff",
+favorited: {
+    backgroundColor: '#e33d3d',
+},
+
+contactButton: {
+    backgroundColor: '#04d361',
+    flex: 1,
+    height: 56,
+    borderRadius: 8,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 8,
+},
+
+contactButtonText: {
+    color: '#FFF',
+    fontFamily: 'Archivo_700Bold',
     fontSize: 16,
-    fontFamily: "Archivo_700Bold",
+    marginLeft: 16,
   },
 });
 
