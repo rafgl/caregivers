@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
 
   label: {
-    color: '#d4c2ff',
+    color: '#FFF',
     fontFamily: 'Poppins_400Regular',
   },
 

@@ -51,13 +51,13 @@ export default function TeacherList() {
 
         { isFiltersVisible && (
          <View style={styles.searchform}>
-          <Text style={styles.label}>Matéria</Text>
+          <Text style={styles.label}>Cidade</Text>
           <TextInput
             placeholderTextColor="#c1bccc"
             style={styles.input}
             value={course}
             onChangeText={text => setcourse(text)}
-            placeholder="Qual a matéria?"
+            placeholder="Qual a cidade?"
             />
             <View style={styles.inputGroup}>
               <View style={styles.inputBlock}>

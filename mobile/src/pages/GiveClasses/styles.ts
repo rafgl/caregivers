@@ -1,9 +1,15 @@
 import { StyleSheet } from "react-native";
+import { withMobileDialog } from "@material-ui/core";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#f0f0f7",
+        borderWidth: 1,
+        borderColor: '#e6e6f0',
+        borderRadius: 8,
+        marginBottom: 16,
+        overflow: 'hidden'
   },
 
   teacherList: {
@@ -112,6 +118,18 @@ contactButtonText: {
     fontSize: 16,
     marginLeft: 16,
   },
+
+  inputName: {
+    flex: 1,
+    backgroundColor: "#F8F8FF",
+    borderWidth: 1,
+    borderColor: '#e6e6f0',
+    borderRadius: 8,
+    marginBottom: 16,
+    overflow: 'hidden',
+    width: 235,
+    fontFamily: 'Archivo_700Bold',
+  }
 });
 
 export default styles;

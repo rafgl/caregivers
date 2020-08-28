@@ -41,19 +41,19 @@ function LearnTabs() {
         name="TeacherList"
         component={TeacherList}
         options={{
-          tabBarLabel: "Proffys",
+          tabBarLabel: "Cuidadores",
           tabBarIcon: ({ color, size, focused }) => {
-            return <Ionicons name="ios-easel" size={size} color={focused ? "#8257e5" : color} />;
+            return <Ionicons name="ios-contacts" size={size} color={focused ? "#87CEFA" : color} />;
           },
         }}
       />
       <Screen
-        name="Favorites"
+        name="Favoritos"
         component={Favorites}
         options={{
           tabBarLabel: "Favoritos",
           tabBarIcon: ({ color, size, focused }) => {
-            return <Ionicons name="ios-heart" size={size} color={focused ? "#8257e5" : color} />;
+            return <Ionicons name="ios-man" size={size} color={focused ? "#87CEFA" : color} />;
           },
         }}
       />
