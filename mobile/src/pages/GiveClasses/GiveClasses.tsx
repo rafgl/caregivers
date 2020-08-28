@@ -35,14 +35,33 @@ export default function GiveClasses() {
         }}>
 
 <View style={styles.container}>
-         <View style={styles.profile}>
-               <View style={styles.profileInfo}>
-                     <Text style={styles.subject}>Coloque seu nome</Text>
-                     <TextInput style={styles.inputName}>
-
-                     </TextInput>
+        <Text style={styles.title}>
+          Seus dados
+        </Text>
+            <View style={styles.profileInfo}>
+              <Text style={styles.titleInput}>Coloque seu nome</Text>
+                <TextInput style={styles.inputName}>
+                </TextInput>
              </View> 
-        </View>
+
+             <View style={styles.profileInfo}>
+              <Text style={styles.titleInput}>Avatar</Text>
+                <TextInput style={styles.inputName}>
+                </TextInput>
+             </View> 
+
+             <View style={styles.profileInfo}>
+              <Text style={styles.titleInput}>Whatsapp</Text>
+                <TextInput style={styles.inputName}>
+                </TextInput>
+             </View> 
+
+             <View style={styles.profileInfo}>
+              <Text style={styles.titleInput}>Bio</Text>
+                <TextInput style={styles.inputName}>
+                </TextInput>
+             </View> 
+             
         <Text style={styles.bio}></Text>
 
         <View style={styles.footer}>    

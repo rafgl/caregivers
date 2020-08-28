@@ -26,6 +26,14 @@ const styles = StyleSheet.create({
     maxWidth: 160,
     marginVertical: 40,
   },
+
+  logoText: {
+    fontFamily: "Poppins_600SemiBold",
+    color: '#FFF',
+  },
+  iconName: {
+    color: '#836FFF',
+  }
 });
 
 export default styles;

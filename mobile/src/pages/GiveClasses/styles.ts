@@ -18,12 +18,34 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    marginTop: 40,
     padding: 16,
     fontFamily: "Poppins_600SemiBold",
-    color: "#87CEFA",
-    fontSize: 20,
+    fontSize: 15,
+    marginLeft: 25,
   },
+
+  inputName: {
+    flex: 1,
+    backgroundColor: "#F8F8FF",
+    borderWidth: 1,
+    borderColor: '#e6e6f0',
+    borderRadius: 8,
+    marginBottom: 16,
+    overflow: 'hidden',
+    width: 250,
+    fontFamily: 'Archivo_700Bold',
+  },
+
+  titleInput: {
+    fontFamily: 'Poppins_400Regular',
+    color: '#A9A9A9',
+    fontSize: 12,
+    marginTop: 4,
+},
+
+    titleBio: {
+        borderWidth: 1,
+    },
 
 profile: {
     flexDirection: 'row',
@@ -39,7 +61,7 @@ avatar: {
 },
 
 profileInfo: {
-    marginLeft: 16,
+    marginLeft: 40,
 },
 
 name: {
@@ -48,12 +70,6 @@ name: {
     fontSize: 20,
 },
 
-subject: {
-    fontFamily: 'Poppins_400Regular',
-    color: '#6a6180',
-    fontSize: 12,
-    marginTop: 4,
-},
 
 bio: {
     marginHorizontal: 24,
@@ -119,17 +135,6 @@ contactButtonText: {
     marginLeft: 16,
   },
 
-  inputName: {
-    flex: 1,
-    backgroundColor: "#F8F8FF",
-    borderWidth: 1,
-    borderColor: '#e6e6f0',
-    borderRadius: 8,
-    marginBottom: 16,
-    overflow: 'hidden',
-    width: 235,
-    fontFamily: 'Archivo_700Bold',
-  }
 });
 
 export default styles;

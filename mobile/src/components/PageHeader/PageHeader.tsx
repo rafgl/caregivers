@@ -2,6 +2,7 @@ import React, { ReactNode } from "react";
 import { View, Image, Text } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { BorderlessButton } from "react-native-gesture-handler";
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import backIcon from "../../assets/images/icons/back.png";
 import logoImg from "../../assets/images/logo.png";
@@ -26,7 +27,11 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, headerRight, children })
           <Image source={backIcon} resizeMode="contain" />
         </BorderlessButton>
 
-        <Image source={logoImg} resizeMode="contain" />
+        <Text style={styles.logoText}>
+          Caregivers
+          <Icon name="add" style={styles.iconName}/> 
+        </Text>
+        
       </View>
 
       <View style={styles.header}>
