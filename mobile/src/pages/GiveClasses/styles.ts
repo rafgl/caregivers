@@ -12,6 +12,22 @@ const styles = StyleSheet.create({
         overflow: 'hidden'
   },
 
+  button: {
+    height: 50,
+    width: "70%",
+    backgroundColor: "#04d361",
+    borderRadius: 10,
+    padding: 20,
+    justifyContent: "space-around",
+    alignItems: 'center',
+  },
+
+  buttonText: {
+    fontFamily: "Archivo_700Bold",
+    color: "#fff",
+    fontSize: 23,
+  },
+
   teacherList: {
     marginTop: -40,
     padding: 16,

@@ -39,7 +39,7 @@ export default function GiveClasses() {
           Seus dados
         </Text>
             <View style={styles.profileInfo}>
-              <Text style={styles.titleInput}>Coloque seu nome</Text>
+              <Text style={styles.titleInput}>Nome</Text>
                 <TextInput style={styles.inputName}>
                 </TextInput>
              </View> 
@@ -60,13 +60,17 @@ export default function GiveClasses() {
               <Text style={styles.titleInput}>Bio</Text>
                 <TextInput style={styles.inputName}>
                 </TextInput>
-             </View> 
-             
+             </View>  
         <Text style={styles.bio}></Text>
-
-        <View style={styles.footer}>    
-        </View>
-    </View>
+    <View style={styles.footer}>   
+      <RectButton
+          onPress={handleNavigationBack}
+          style={[styles.button]}
+        >
+          <Text style={styles.buttonText}>Cuidar</Text>
+      </RectButton>
+  </View>
+</View>
       </ScrollView>
     </View>
     
