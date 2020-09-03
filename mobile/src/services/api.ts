@@ -1,7 +1,9 @@
-import axios from 'axios';
+import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://92.168.0.102:3333'
+  baseURL: "http://192.168.0.102:3333", // http://<Expo emulator ip>:serverAppPort*
 });
 
 export default api;
+
+// * you need to run your app server

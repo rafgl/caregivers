@@ -28,7 +28,7 @@ export default function Landing() {
 
 
   function handleNavigateToGiveClassesPage() {
-    navigate("GiveClasses");
+    navigate("Teach");
   }
 
   function handleNavigateToLearnPages() {
