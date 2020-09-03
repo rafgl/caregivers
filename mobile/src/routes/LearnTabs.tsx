@@ -48,7 +48,7 @@ function LearnTabs() {
         }}
       />
       <Screen
-        name="Favoritos"
+        name="Favorites"
         component={Favorites}
         options={{
           tabBarLabel: "Favoritos",

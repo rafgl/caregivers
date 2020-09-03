@@ -3,12 +3,7 @@ import { View, Image, Text, TouchableOpacity, ImageBackground } from "react-nati
 import { useNavigation } from "@react-navigation/native";
 import { RectButton } from "react-native-gesture-handler";
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faDove } from '@fortawesome/free-solid-svg-icons';
-import ReactDOM from 'react-dom';
-import elderly from '@material-ui/core/';
 
-Icon.loadFont();
 
 
 import styles from "./styles";
@@ -33,7 +28,7 @@ export default function Landing() {
 
 
   function handleNavigateToGiveClassesPage() {
-    navigate("GiveClasses");
+    navigate("Teach");
   }
 
   function handleNavigateToLearnPages() {

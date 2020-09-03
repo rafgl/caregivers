@@ -4,7 +4,6 @@ import React, { useState, Component } from "react";
 import { View, ImageBackground, Text, ScrollView, Image, Linking, TextInput,  } from "react-native";
 import { RectButton } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
-import TeacherItem, { Teacher } from "../../components/TeacherItem";
 import PageHeader from "../../components/PageHeader";
 
 import styles from "./styles";
@@ -14,7 +13,7 @@ import unfavoriteIcon from '../../assets/images/icons/unfavorite.png';
 import whatsappIcon from '../../assets/images/icons/whatsapp.png';
 
 
-export default function GiveClasses() {
+export default function Teach() {
   const { goBack } = useNavigation();
   const [name, setName] = useState('shaun');
   const [age, setAge] = useState('30');
@@ -39,7 +38,7 @@ export default function GiveClasses() {
           Seus dados
         </Text>
             <View style={styles.profileInfo}>
-              <Text style={styles.titleInput}>Coloque seu nome</Text>
+              <Text style={styles.titleInput}>Nome</Text>
                 <TextInput style={styles.inputName}>
                 </TextInput>
              </View> 
@@ -60,13 +59,17 @@ export default function GiveClasses() {
               <Text style={styles.titleInput}>Bio</Text>
                 <TextInput style={styles.inputName}>
                 </TextInput>
-             </View> 
-             
+             </View>  
         <Text style={styles.bio}></Text>
-
-        <View style={styles.footer}>    
-        </View>
-    </View>
+    <View style={styles.footer}>   
+      <RectButton
+          onPress={handleNavigationBack}
+          style={[styles.button]}
+        >
+          <Text style={styles.buttonText}>Cuidar</Text>
+      </RectButton>
+  </View>
+</View>
       </ScrollView>
     </View>
     
