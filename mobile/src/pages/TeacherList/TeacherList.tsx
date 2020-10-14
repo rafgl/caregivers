@@ -97,7 +97,7 @@ export default function TeacherList() {
               </View>
             </View>
             <RectButton style={styles.submitButton} onPress={handleFilterSubmit}>
-              <Text style={styles.submitButtonText}>Filtrar</Text>
+              <Text style={styles.submitButtonText}>Achar cuidador</Text>
             </RectButton>
           </View>
         )}

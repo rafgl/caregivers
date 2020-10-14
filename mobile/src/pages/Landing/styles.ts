@@ -48,10 +48,10 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    height: 120,
+    height: 155,
     width: "48%",
     backgroundColor: "#333",
-    borderRadius: 8,
+    borderRadius: 50,
     padding: 20,
     justifyContent: "space-around",
   },

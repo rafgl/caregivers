@@ -112,18 +112,18 @@ export default function TeacherForm() {
               value={course}
               onChange={(event) => setCourse(event.target.value)}
               options={[
-                { value: "English", label: "English" },
-                { value: "Spanhish", label: "Spanhish" },
-                { value: "Portuguese", label: "Portuguese" },
-                { value: "Chinese", label: "Chinese" },
-                { value: "Greek", label: "Greek" },
-                { value: "Old Hebraic", label: "Old Hebraic" },
-                { value: "Arts", label: "Arts" },
-                { value: "Spanish", label: "Spanish" },
-                { value: "German", label: "German" },
-                { value: "French", label: "French" },
-                { value: "Chemistry", label: "Chemistry" },
-                { value: "Physics", label: "Physics" },
+                { value: "Jaragua", label: "Jaragua" },
+                { value: "Schroeder", label: "Schroeder" },
+                { value: "Massaranduba", label: "Massaranduba" },
+                { value: "Guaramirim", label: "Guaramirim" },
+                { value: "Blumenau", label: "Blumenau" },
+                { value: "Corupa", label: "Corupa" },
+                { value: "Pomerode", label: "Pomerode" },
+                { value: "Curitiba", label: "Curitiba" },
+                { value: "Brusque", label: "Brusque" },
+                { value: "Canoinhas", label: "Canoinhas" },
+                { value: "Florianopolis", label: "Florianopolis" },
+                { value: "Urubici", label: "Urubici" },
               ]}
             />
             <Input

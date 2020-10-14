@@ -75,7 +75,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, favorited }) => {
 
       <View style={styles.footer}>
         <Text style={styles.price}>
-          Price/hour {"   "}
+          Preço/Hora {"   "}
           <Text style={styles.priceValue}>R$ {teacher.cost}</Text>
         </Text>
 
@@ -89,7 +89,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher, favorited }) => {
 
           <RectButton onPress={handleLinkToWhatsapp} style={styles.contactButton}>
             <Image source={whatsappIcon} />
-            <Text style={styles.contactButtonText}>Get in touch</Text>
+            <Text style={styles.contactButtonText}>Entrar em contato</Text>
           </RectButton>
         </View>
       </View>

@@ -46,8 +46,8 @@ export default function Landing() {
       </Text>
       <Image source={landingImg} style={styles.banner} />
       <Text style={styles.title}>
-        Bem-vindo, {"\n"}
-        <Text style={styles.titleBold}>O que você gostaria de fazer</Text>
+        Grato por ter você aqui, {"\n"}
+        <Text style={styles.titleBold}>Escolha uma das duas opções</Text>
       </Text>
 
       <View style={styles.buttonsContainer}>
