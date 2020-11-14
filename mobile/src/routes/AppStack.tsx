@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
 import Landing from "../pages/Landing";
+import Login from "../pages/Login";
 import Teach from "../pages/Teach";
 import LearnTabs from "./LearnTabs";
 
@@ -16,6 +17,7 @@ function AppStack() {
           headerShown: false,
         }}
       >
+        <Screen name="Login" component={Login} />
         <Screen name="Landing" component={Landing} />
         <Screen name="Teach" component={Teach} />
         <Screen name="Learn" component={LearnTabs} />
